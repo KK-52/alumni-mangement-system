@@ -1,0 +1,101 @@
+NAME,BATCH,DEPARTMENT,DATE OF BIRTH,COMPANY NAME,JOB TITLE,COUNTRY OF RESIDENCE,EMAIL ID
+Allison Hill,2020,MECH,1997-09-06,"Parker, Ortiz and Powell",ceo,India,ashley09@hotmail.com
+Noah Rhodes,2003,MECH,1980-05-05,Spencer-Lee,CEO,INDIA,colleenbaker@moore.net
+Angie Henderson,2000,EEE,1991-09-06,"Bentley, Byrd and Orr",Data Scientist,UAE,aaronhayes@harrison.com
+Daniel Wagner,2023,IT,1998-12-09,"Carroll, Sullivan and Bass",Data Scientist,Australia,mcdanielsandra@hotmail.com
+Cristian Santos,2008,IT,1997-12-01,Mitchell-Jordan,ML Engineer,India,owilson@hernandez.com
+Connie Lawrence,2007,CIVIL,1984-02-27,"Lawson, Morris and Ramos",Data Scientist,UK,brooke94@martinez-barker.biz
+Abigail Shaffer,2007,ECE,1993-09-28,"Lewis, Kennedy and Santana",HR Manager,UK,mkim@gmail.com
+Gina Moore,2004,IT,1983-06-15,"Jackson, Miller and Robertson",HR Manager,UK,cassandra01@gmail.com
+Gabrielle Davis,2023,EEE,1980-07-16,"Harvey, Davis and Crane",Software Engineer,Singapore,barbara27@pearson.org
+Ryan Munoz,2003,AI&DS,1989-08-09,Chambers and Sons,HR Manager,Canada,ecosta@yahoo.com
+Monica Herrera,2021,AI&DS,1991-07-11,Hernandez Inc,ML Engineer,UAE,manuel12@yahoo.com
+Jamie Arnold,2023,AI&DS,1980-06-22,Riggs PLC,Product Manager,Canada,zroberts@hotmail.com
+Lisa Hensley,2017,CSE,1991-04-17,Gibson Ltd,Software Engineer,Germany,qmiller@wilson-barton.net
+Michele Williams,2002,ECE,1986-04-07,"Lee, Horton and Snyder",Software Engineer,Singapore,mgutierrez@cox.com
+Dylan Miller,2018,AI&DS,2002-04-29,Hernandez Ltd,ML Engineer,UK,andrea47@washington.com
+Brian Ramirez,2013,CSE,1987-08-11,Stafford Inc,ML Engineer,India,andrea86@walker.info
+Holly Wood,2001,AI&DS,2001-10-23,Robinson-Brock,Data Scientist,Singapore,tyronemoran@thornton.info
+Derek Zuniga,2000,EEE,1982-08-13,"Holmes, Williams and Wright",Software Engineer,India,yarnold@weeks.com
+Lisa Jackson,2002,MECH,1991-02-25,Bryant Group,Data Scientist,USA,kendra65@adams.org
+Carla Gray,2006,EEE,1998-03-02,"Schmidt, Hansen and Stewart",HR Manager,USA,seanwashington@yahoo.com
+Margaret Hawkins DDS,2007,CSE,1992-12-11,Salazar-Ball,Software Engineer,India,mcantu@hotmail.com
+Patty Perez,2016,ECE,2000-03-27,"Simmons, Meadows and Griffin",Software Engineer,UK,xhall@williams-garner.biz
+Ethan Adams,2019,CIVIL,1984-05-17,Manning Group,Business Analyst,Canada,tylerjohnson@hotmail.com
+Tommy Walter,2000,IT,1987-03-05,Green-Wright,Product Manager,UAE,sawyerscott@hotmail.com
+Matthew Foster,2017,EEE,1984-08-24,"Ramirez, Strickland and Washington",Software Engineer,Singapore,bowenrobert@hotmail.com
+Judy Baker,2006,ECE,1985-02-21,Hill Inc,HR Manager,Singapore,harrisontanya@hanson-sanders.com
+Justin Baker,2022,IT,1993-02-22,"Mitchell, Nelson and Flores",Data Scientist,UK,ofinley@hotmail.com
+Stephanie Ross,2020,MECH,1979-12-18,"Miller, Hernandez and Reyes",Data Scientist,UAE,williamsonjimmy@hotmail.com
+Zachary Hicks,2022,MECH,1985-03-22,Mccarthy Inc,Business Analyst,USA,juliehamilton@gmail.com
+Anthony Rodriguez,2017,IT,1990-06-03,Russell-Daniels,Product Manager,Canada,tjackson@williams.com
+Rebecca Henderson,2013,MECH,1993-02-15,Brown-Wall,HR Manager,UAE,ryan38@yahoo.com
+James Ferrell,2007,ECE,2001-11-29,Stein-Silva,Data Scientist,USA,gregorylynch@harvey-allen.org
+Tricia Valencia,2014,EEE,1987-07-25,"Smith, Gilmore and Johnston",ML Engineer,UAE,stevenking@estrada-nolan.info
+Nathan Maldonado,2018,ECE,1988-03-12,Smith-Bell,HR Manager,Germany,charleslandry@hotmail.com
+Debra Davidson,2008,ECE,1984-07-14,Castaneda-Ashley,HR Manager,Singapore,dvaughn@yahoo.com
+Jeffrey Chavez,2000,IT,2002-12-24,Medina-Navarro,Product Manager,Germany,gcastaneda@james.org
+Sherri Baker,2024,CIVIL,1982-10-18,"Hurst, Freeman and Nelson",Data Scientist,UAE,andrew64@gmail.com
+Cassandra Gaines,2005,CIVIL,1992-02-19,Johnson-Rogers,HR Manager,Singapore,swall@lawson.com
+Elizabeth Fowler,2022,EEE,1980-06-08,"Yates, Ramsey and Pittman",Business Analyst,Canada,erica21@lucas.org
+Brittany Farmer,2013,IT,1995-02-18,Hooper PLC,Business Analyst,UK,christopherphillips@hotmail.com
+Paula Moreno,2010,CIVIL,1986-09-08,Meadows PLC,Data Scientist,Germany,jamesbuchanan@yahoo.com
+Fred Smith,2008,MECH,1985-11-28,"Alvarado, Miller and Patterson",Business Analyst,UK,jonathansummers@yahoo.com
+Sherry Decker,2004,CIVIL,1994-10-12,White-Green,ML Engineer,USA,linda71@gmail.com
+Anthony Humphrey,2006,MECH,1991-01-06,Lewis-Murphy,Product Manager,USA,zcoffey@diaz.net
+Angelica Tucker,2024,EEE,1989-07-02,Ramirez-Bean,Business Analyst,Australia,vrichardson@baker.com
+Philip Cannon,2010,ECE,1986-11-11,King-Miller,Business Analyst,USA,thomasharvey@murphy.info
+John Pierce,2003,ECE,1986-09-14,Curry Inc,ML Engineer,USA,cwilson@gmail.com
+Shane Henderson,2002,CIVIL,1979-12-04,Walker-Jones,Product Manager,Singapore,pwilson@hotmail.com
+Joshua Blair,2012,MECH,2001-07-29,"Williams, Johnson and Wright",HR Manager,Canada,qchavez@horton.com
+Eric Carney,2003,CSE,1985-09-09,Howell and Sons,Product Manager,USA,basschristina@yahoo.com
+Jessica Holmes,2011,AI&DS,1992-09-03,Wells Inc,Software Engineer,India,jeff73@garcia-jennings.net
+Danny Morgan,2011,CSE,1990-04-15,"Gould, Marshall and Scott",Data Scientist,Canada,sandersjames@gmail.com
+Crystal Robinson,2019,AI&DS,1988-08-06,Jackson-Lawson,Data Scientist,India,batesdarlene@hotmail.com
+Mark Perez,2008,CSE,1981-06-24,"Higgins, Strickland and Martin",Software Engineer,India,buchananjohn@buchanan.com
+Shannon Jones,2001,ECE,1988-08-12,Rodriguez-Johnson,ML Engineer,UK,lisahall@kramer.com
+Michael Lewis,2023,IT,1991-01-24,Johnston-Odonnell,Software Engineer,UAE,vanessafernandez@gmail.com
+Timothy Duncan,2014,ECE,2000-12-11,Sanders-Espinoza,HR Manager,India,andersonmichael@chapman.com
+Richard Aguirre,2017,AI&DS,1996-06-13,Vargas Ltd,HR Manager,UK,martinezrobert@gmail.com
+Brent Jordan,2003,IT,1992-09-19,Garcia LLC,Data Scientist,USA,xwest@wheeler.org
+John Daniel,2012,MECH,2002-03-28,"Burke, Martinez and Riggs",HR Manager,India,stephen00@boone-simmons.com
+Victoria Garcia,2002,CIVIL,1997-05-12,Reed Group,Data Scientist,UAE,fjones@yahoo.com
+Gerald Hensley,2017,CSE,1990-05-21,"Wood, Hunter and Peterson",Software Engineer,Australia,martinezclaudia@kelley.net
+Connor West,2009,MECH,1980-01-22,Short-Garcia,Software Engineer,Germany,bwagner@gmail.com
+Donald Wright,2020,MECH,1983-01-16,Reid-Poole,Business Analyst,UK,russellbeasley@morgan-chavez.biz
+Jessica Callahan,2019,CIVIL,1988-01-03,"Hernandez, Thompson and Boyd",Business Analyst,Australia,ronald45@mcdaniel.com
+Amber Kidd,2011,MECH,1985-03-12,"Nelson, Morton and Medina",Software Engineer,UK,daviscolin@watson.net
+Tracy House,2018,CIVIL,1998-11-15,Marshall-Petersen,Data Scientist,Germany,jenkinsmorgan@yahoo.com
+Carol Tucker,2006,EEE,1988-02-25,"Adams, Christian and Rivas",Software Engineer,UAE,caroline51@romero.com
+James Brown,2022,CIVIL,1980-06-02,Ramirez Group,Software Engineer,Canada,danny49@gmail.com
+William Baker,2002,AI&DS,1982-10-22,Christensen PLC,ML Engineer,Germany,lynchdiane@hotmail.com
+Jordan Henderson,2001,CSE,1999-06-01,"Barnett, Rogers and Snyder",Software Engineer,Singapore,whitejacqueline@yahoo.com
+Whitney Peters,2021,IT,1993-11-26,White-Lewis,HR Manager,Australia,adam29@hotmail.com
+Brittney Phillips,2007,IT,1990-11-18,Peterson-Beard,Data Scientist,India,thomascynthia@gmail.com
+Lauren Daniels,2024,CSE,1989-10-16,"Beard, Peters and Black",ML Engineer,USA,nicholaschavez@wood.com
+Amy Silva,2009,IT,1993-12-19,Miller Ltd,Business Analyst,Singapore,moorekaren@craig.info
+Sarah Moore,2002,CIVIL,1999-09-29,Freeman-Chang,Product Manager,India,alawson@yahoo.com
+Angela Lopez,2007,AI&DS,1996-07-08,"Alvarez, Joseph and West",Data Scientist,India,reeddaniel@gregory.com
+Megan Young,2003,EEE,1983-01-20,Davis and Sons,HR Manager,UK,djoyce@harris.com
+Steve Sanchez,2012,AI&DS,1992-03-23,Holt-Torres,Data Scientist,Germany,mark07@hotmail.com
+Lisa Barnes,2008,IT,1998-09-26,"Wood, Tran and Cooper",Business Analyst,Canada,davidpatel@gmail.com
+Kelly Donovan,2014,EEE,1985-08-02,"Pierce, Bell and Chavez",HR Manager,Australia,sandersjudy@yahoo.com
+Mike Allen,2020,CSE,1987-10-14,King-Martinez,HR Manager,India,umorse@patterson.com
+Michael Evans,2011,EEE,1980-08-17,Stewart Ltd,Product Manager,UK,usmith@solis.info
+Paul Jones,2005,MECH,1993-12-15,"Tapia, Vaughn and Lee",Data Scientist,Australia,kimdaniel@yahoo.com
+Zachary Ferrell,2011,ECE,1979-03-06,"Washington, Hardy and Bray",Product Manager,Germany,fosterkyle@yahoo.com
+Daniel Baker,2011,MECH,1996-10-22,"Carlson, Hooper and Wall",Product Manager,Canada,kimberly18@wilson.com
+Shirley Suarez,2006,CSE,1997-06-09,Perez-White,Data Scientist,Singapore,joelthomas@gmail.com
+Christopher Bass,2021,IT,2002-06-27,Erickson and Sons,Software Engineer,Germany,kathleenrios@bean.info
+Lisa Archer,2008,IT,2001-12-08,Williams-Brown,Software Engineer,USA,kmaldonado@hotmail.com
+Aimee Montoya,2022,EEE,1985-10-27,Terry-Martinez,Business Analyst,Germany,edward17@yahoo.com
+Matthew Mcmillan,2021,CIVIL,1991-07-06,Garcia-Smith,Product Manager,India,brittany58@gmail.com
+Brian Rodriguez,2020,AI&DS,1993-10-16,Harrison-Alexander,ML Engineer,Canada,dhayes@yahoo.com
+Denise Jacobs,2002,ECE,1981-07-01,Sheppard LLC,Product Manager,Germany,newmantiffany@gmail.com
+Christina Walters,2019,CIVIL,2001-09-19,Wilson-Jones,Product Manager,India,ycarpenter@hotmail.com
+John Whitehead,2020,CSE,1990-05-09,Jones-Soto,Product Manager,India,kstout@lopez.com
+Anna Henderson,2005,AI&DS,2000-04-27,Hernandez PLC,Business Analyst,Canada,shepherdmary@hotmail.com
+Aaron Wise,2017,IT,1989-10-19,Miller-Wright,Software Engineer,Germany,benjaminzimmerman@warren-bishop.com
+Deborah Figueroa,2023,EEE,2001-09-09,"Duran, Obrien and Gibbs",Business Analyst,Germany,paul59@gmail.com
+Jessica Smith,2007,AI&DS,1983-05-11,Rowe Group,Business Analyst,UK,riveraangela@yahoo.com
+Stephen Mckee,2005,IT,1989-05-03,Kerr-Evans,Business Analyst,Australia,jennifer92@yahoo.com

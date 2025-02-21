@@ -1,0 +1,101 @@
+Name,Department,Year of study,email id,Sem 1 GPA,Sem 2 GPA,Sem 3 GPA,Sem 4 GPA,Sem 5 GPA,Sem 6 GPA,Sem 7 GPA,Sem 8 GPA,cgpa,intrested domain,intrested country,passing year
+Student 1,ECE,4,student1@college.edu,9.21,9.18,6.56,7.12,8.1,7.97,7.53,7.84,7.94,Placements,USA,2027
+Student 2,ECE,3,student2@college.edu,6.74,6.75,7.53,6.12,9.53,7.88,7.37,8.46,7.55,Placements,Germany,2029
+Student 3,EEE,3,student3@college.edu,6.74,8.27,8.52,9.06,6.47,9.19,7.08,6.4,7.72,Higher studies,USA,2025
+Student 4,CIVIL,3,student4@college.edu,7.68,7.23,7.57,7.56,8.67,9.5,7.92,9.61,8.22,Higher studies,USA,2029
+Student 5,ECE,3,student5@college.edu,9.11,9.81,8.54,8.7,6.78,7.27,6.95,7.3,8.06,Higher studies,India,2025
+Student 6,MECH,3,student6@college.edu,8.64,6.69,9.05,8.56,8.54,6.64,9.56,7.59,8.16,Placements,Germany,2029
+Student 7,CIVIL,4,student7@college.edu,8.73,9.75,6.48,8.72,9.0,7.22,6.81,9.4,8.26,Higher studies,Canada,2028
+Student 8,MECH,3,student8@college.edu,9.36,6.14,8.0,8.16,8.38,8.4,9.52,8.31,8.28,Placements,Germany,2028
+Student 9,ECE,4,student9@college.edu,8.04,8.68,7.75,8.5,6.32,8.87,8.35,7.14,7.96,Higher studies,Germany,2025
+Student 10,CIVIL,3,student10@college.edu,6.15,6.87,9.58,8.67,6.11,6.78,8.72,9.35,7.78,Placements,Canada,2026
+Student 11,ECE,3,student11@college.edu,6.12,9.76,8.01,8.24,8.49,8.48,6.8,7.16,7.88,Higher studies,UK,2027
+Student 12,IT,3,student12@college.edu,6.57,6.12,7.84,6.13,6.21,9.12,9.7,7.36,7.38,Placements,Australia,2028
+Student 13,ECE,3,student13@college.edu,8.62,7.75,6.97,6.84,7.85,9.13,9.34,9.02,8.19,Higher studies,UK,2029
+Student 14,EEE,3,student14@college.edu,7.79,8.22,8.22,8.32,6.99,7.89,8.43,8.22,8.01,Placements,India,2025
+Student 15,CIVIL,3,student15@college.edu,8.5,8.05,6.33,9.22,7.29,9.88,6.87,8.07,8.03,Placements,USA,2025
+Student 16,CIVIL,3,student16@college.edu,8.09,7.96,7.72,6.1,7.77,7.33,8.33,9.96,7.91,Higher studies,UK,2027
+Student 17,ECE,3,student17@college.edu,7.94,7.07,7.22,8.71,6.27,6.85,9.25,7.59,7.61,Higher studies,Canada,2025
+Student 18,ECE,3,student18@college.edu,8.73,7.18,8.52,6.67,7.36,8.06,8.49,7.33,7.79,Placements,Australia,2028
+Student 19,IT,4,student19@college.edu,7.48,7.87,7.51,8.54,6.24,6.65,6.02,8.67,7.37,Higher studies,India,2029
+Student 20,CSE,4,student20@college.edu,7.54,7.29,6.6,9.79,6.78,6.95,8.44,7.62,7.63,Higher studies,Australia,2030
+Student 21,CIVIL,4,student21@college.edu,9.62,7.1,8.91,7.32,7.92,8.91,6.75,9.52,8.26,Placements,India,2026
+Student 22,CIVIL,4,student22@college.edu,7.81,7.26,6.15,6.57,8.21,8.88,7.84,9.02,7.72,Placements,Germany,2030
+Student 23,IT,4,student23@college.edu,9.74,7.78,9.95,7.82,9.82,9.02,8.21,9.49,8.98,Placements,Canada,2028
+Student 24,CSE,3,student24@college.edu,6.6,8.27,8.56,9.81,6.27,6.69,9.77,7.84,7.98,Placements,Germany,2027
+Student 25,CIVIL,4,student25@college.edu,9.04,8.8,8.91,8.09,8.89,9.81,9.21,6.7,8.68,Higher studies,Australia,2026
+Student 26,IT,3,student26@college.edu,9.9,8.95,6.12,9.52,9.51,6.65,9.4,6.27,8.29,Higher studies,UK,2026
+Student 27,CIVIL,3,student27@college.edu,7.83,7.14,7.72,9.59,7.01,7.76,7.64,7.62,7.79,Higher studies,Germany,2026
+Student 28,CIVIL,3,student28@college.edu,9.94,8.6,9.44,8.73,9.35,7.21,6.61,9.18,8.63,Higher studies,USA,2027
+Student 29,IT,4,student29@college.edu,9.05,9.9,6.24,7.48,8.43,6.86,8.01,8.71,8.09,Higher studies,India,2028
+Student 30,EEE,4,student30@college.edu,7.56,6.04,7.17,7.32,8.52,9.52,9.43,7.53,7.89,Higher studies,Australia,2026
+Student 31,EEE,4,student31@college.edu,9.24,9.35,8.87,9.57,8.14,9.02,7.08,8.41,8.71,Placements,Germany,2026
+Student 32,MECH,3,student32@college.edu,7.27,8.61,9.5,9.34,6.02,9.29,9.93,6.66,8.33,Higher studies,UK,2026
+Student 33,MECH,3,student33@college.edu,8.85,9.58,6.89,9.29,9.22,8.35,9.49,7.8,8.68,Placements,Australia,2030
+Student 34,EEE,4,student34@college.edu,9.85,6.52,9.33,6.96,7.81,6.67,8.29,7.17,7.83,Placements,Germany,2026
+Student 35,CIVIL,4,student35@college.edu,7.67,8.91,7.9,6.39,8.08,7.1,7.45,9.14,7.83,Placements,USA,2026
+Student 36,EEE,3,student36@college.edu,8.26,7.86,6.64,7.12,9.25,8.15,8.01,7.67,7.87,Higher studies,India,2027
+Student 37,EEE,3,student37@college.edu,9.79,7.54,6.89,7.81,6.1,7.71,9.26,7.85,7.87,Higher studies,Australia,2027
+Student 38,CSE,4,student38@college.edu,7.46,9.43,9.13,7.79,7.37,6.61,6.9,9.45,8.02,Placements,Canada,2029
+Student 39,EEE,3,student39@college.edu,8.4,9.13,9.57,7.11,9.72,9.86,6.48,7.13,8.42,Placements,Australia,2027
+Student 40,EEE,3,student40@college.edu,6.8,8.23,6.5,9.92,7.9,6.56,6.44,9.09,7.68,Higher studies,UK,2025
+Student 41,CSE,4,student41@college.edu,8.89,8.41,6.18,7.01,6.52,7.75,7.41,9.99,7.77,Higher studies,USA,2027
+Student 42,IT,4,student42@college.edu,9.58,9.7,9.23,9.61,8.41,6.8,8.9,8.02,8.78,Higher studies,Germany,2028
+Student 43,ECE,3,student43@college.edu,6.71,9.94,8.06,7.79,6.3,9.7,7.67,7.2,7.92,Higher studies,UK,2026
+Student 44,ECE,4,student44@college.edu,9.28,7.67,6.03,6.94,6.54,7.52,6.88,6.68,7.19,Placements,USA,2026
+Student 45,CSE,3,student45@college.edu,8.96,8.97,9.63,9.02,7.86,7.33,8.64,6.89,8.41,Higher studies,USA,2025
+Student 46,CSE,3,student46@college.edu,8.78,7.39,8.45,9.16,6.76,7.6,6.42,8.3,7.86,Placements,Canada,2027
+Student 47,IT,4,student47@college.edu,8.73,8.78,9.8,7.75,8.3,7.73,7.42,7.32,8.23,Placements,Germany,2029
+Student 48,IT,4,student48@college.edu,7.24,7.71,6.45,9.37,6.87,6.9,6.93,8.52,7.5,Placements,UK,2030
+Student 49,CSE,3,student49@college.edu,9.31,6.89,9.25,6.59,8.87,6.67,6.98,8.18,7.84,Placements,Australia,2030
+Student 50,ECE,4,student50@college.edu,9.47,6.85,6.09,6.8,6.17,7.72,7.84,6.17,7.14,Placements,India,2030
+Student 51,CIVIL,3,student51@college.edu,6.45,9.75,8.45,8.16,8.65,8.82,7.34,6.97,8.07,Placements,Australia,2026
+Student 52,EEE,3,student52@college.edu,6.21,6.29,7.76,6.32,9.73,8.59,9.58,6.51,7.62,Higher studies,Germany,2025
+Student 53,ECE,3,student53@college.edu,8.65,6.87,9.9,6.87,9.63,7.48,8.43,7.98,8.23,Placements,Germany,2027
+Student 54,EEE,3,student54@college.edu,9.1,9.52,6.48,9.85,8.95,9.02,6.52,8.18,8.45,Higher studies,India,2030
+Student 55,MECH,4,student55@college.edu,6.5,7.61,7.09,6.7,8.18,9.7,6.68,9.46,7.74,Higher studies,UK,2026
+Student 56,ECE,4,student56@college.edu,9.3,9.03,7.09,9.07,6.1,9.23,7.71,7.6,8.14,Placements,Germany,2028
+Student 57,ECE,4,student57@college.edu,6.3,9.63,9.83,9.35,6.93,9.06,7.98,9.93,8.63,Placements,Australia,2025
+Student 58,MECH,4,student58@college.edu,7.59,7.2,8.34,8.73,7.65,7.21,6.1,8.17,7.62,Placements,India,2026
+Student 59,CSE,3,student59@college.edu,9.43,7.44,7.74,7.71,8.15,6.66,7.48,8.55,7.89,Higher studies,Canada,2025
+Student 60,ECE,3,student60@college.edu,7.71,6.96,6.08,9.72,7.77,6.73,7.4,7.52,7.49,Placements,UK,2025
+Student 61,ECE,4,student61@college.edu,7.18,9.51,8.65,8.73,9.72,6.53,8.22,8.17,8.34,Placements,Germany,2030
+Student 62,CIVIL,3,student62@college.edu,8.79,9.99,7.25,7.21,9.03,6.38,7.14,9.23,8.13,Placements,Canada,2029
+Student 63,EEE,3,student63@college.edu,8.54,8.89,9.3,6.53,8.31,6.2,8.5,6.05,7.79,Higher studies,UK,2027
+Student 64,MECH,4,student64@college.edu,8.24,8.43,9.59,8.22,9.46,8.8,8.24,7.38,8.55,Placements,USA,2030
+Student 65,ECE,3,student65@college.edu,7.66,6.14,9.05,8.08,6.53,7.52,8.73,7.75,7.68,Placements,Australia,2026
+Student 66,CIVIL,4,student66@college.edu,7.34,9.09,9.8,6.59,8.37,6.17,8.45,6.17,7.75,Placements,Germany,2028
+Student 67,EEE,3,student67@college.edu,6.51,6.39,9.77,8.67,6.9,9.11,6.79,7.17,7.66,Higher studies,Australia,2028
+Student 68,ECE,4,student68@college.edu,8.34,8.53,9.09,9.23,8.15,8.03,6.4,9.35,8.39,Higher studies,Germany,2029
+Student 69,EEE,4,student69@college.edu,6.82,8.19,9.07,8.43,8.08,8.32,7.15,7.42,7.93,Placements,India,2029
+Student 70,ECE,4,student70@college.edu,7.24,8.75,7.24,7.78,7.47,7.15,6.36,9.99,7.75,Placements,Germany,2025
+Student 71,EEE,4,student71@college.edu,6.49,9.53,7.22,9.66,9.03,9.14,6.71,7.45,8.15,Placements,Australia,2030
+Student 72,IT,4,student72@college.edu,6.02,7.13,7.37,8.49,8.06,8.08,6.12,6.76,7.25,Placements,Canada,2027
+Student 73,EEE,3,student73@college.edu,9.86,7.24,8.25,6.19,7.57,8.45,8.21,8.47,8.03,Placements,Australia,2028
+Student 74,CSE,4,student74@college.edu,7.82,7.48,6.07,7.53,8.89,8.63,6.92,7.21,7.57,Placements,Australia,2027
+Student 75,MECH,3,student75@college.edu,9.15,9.33,8.27,6.56,7.82,7.66,7.04,7.79,7.95,Placements,India,2030
+Student 76,EEE,4,student76@college.edu,6.05,9.05,7.74,7.26,7.72,6.96,9.51,8.93,7.9,Placements,Germany,2028
+Student 77,IT,4,student77@college.edu,8.6,8.01,7.51,6.08,6.9,6.5,7.05,6.36,7.13,Higher studies,Germany,2030
+Student 78,EEE,3,student78@college.edu,6.81,9.46,7.74,6.85,8.48,7.52,7.35,7.18,7.67,Placements,Australia,2025
+Student 79,CIVIL,3,student79@college.edu,6.93,9.51,8.98,6.56,9.96,9.59,6.01,9.05,8.32,Placements,USA,2025
+Student 80,MECH,3,student80@college.edu,8.96,8.05,8.06,8.79,7.74,9.1,7.69,6.77,8.14,Placements,India,2028
+Student 81,ECE,3,student81@college.edu,6.28,7.69,9.93,9.99,7.71,6.72,9.05,9.92,8.41,Placements,Australia,2029
+Student 82,MECH,3,student82@college.edu,7.36,6.18,6.07,9.21,9.46,6.63,7.74,6.83,7.44,Placements,USA,2025
+Student 83,ECE,4,student83@college.edu,8.71,8.46,8.89,9.15,6.77,7.86,7.3,9.94,8.38,Higher studies,UK,2026
+Student 84,EEE,4,student84@college.edu,9.03,7.62,6.31,9.24,8.82,7.79,7.08,6.52,7.8,Placements,Germany,2025
+Student 85,IT,3,student85@college.edu,6.68,6.8,7.77,7.74,7.11,6.09,8.44,7.0,7.2,Placements,Canada,2026
+Student 86,CIVIL,3,student86@college.edu,8.32,6.7,6.63,9.08,6.29,9.82,6.38,7.13,7.54,Higher studies,India,2026
+Student 87,IT,4,student87@college.edu,8.06,8.64,8.57,8.75,6.54,8.88,7.04,9.46,8.24,Higher studies,India,2027
+Student 88,IT,3,student88@college.edu,7.13,8.4,6.31,6.67,6.14,8.65,7.48,8.69,7.43,Higher studies,Australia,2027
+Student 89,ECE,4,student89@college.edu,6.19,8.55,6.61,9.76,9.84,7.6,6.95,9.34,8.11,Placements,India,2026
+Student 90,ECE,3,student90@college.edu,8.26,9.67,9.25,7.54,8.53,6.41,7.43,6.06,7.89,Higher studies,Australia,2029
+Student 91,CSE,3,student91@college.edu,6.6,7.62,6.01,9.72,9.8,7.48,8.34,6.42,7.75,Placements,India,2028
+Student 92,MECH,4,student92@college.edu,8.78,7.79,7.16,6.95,7.44,6.98,7.0,9.78,7.73,Placements,UK,2029
+Student 93,ECE,3,student93@college.edu,6.46,9.08,8.09,9.74,7.62,8.88,7.21,9.17,8.28,Higher studies,Australia,2025
+Student 94,MECH,3,student94@college.edu,8.2,9.3,9.65,8.64,6.51,6.45,7.89,9.57,8.28,Placements,Germany,2026
+Student 95,MECH,3,student95@college.edu,6.62,8.72,8.27,7.36,9.26,6.98,7.14,9.73,8.01,Higher studies,Germany,2026
+Student 96,CIVIL,4,student96@college.edu,9.16,9.47,6.63,7.93,7.43,8.12,9.35,7.05,8.14,Placements,Australia,2028
+Student 97,CSE,4,student97@college.edu,7.89,7.24,9.18,6.69,7.11,6.31,8.85,7.1,7.55,Placements,India,2028
+Student 98,ECE,3,student98@college.edu,6.17,9.74,7.48,6.33,7.22,7.49,6.47,9.63,7.57,Placements,Germany,2029
+Student 99,ECE,4,student99@college.edu,9.03,7.11,9.54,8.77,7.91,9.81,8.02,7.33,8.44,Higher studies,Canada,2025
+Student 100,ECE,4,student100@college.edu,6.29,9.9,7.98,8.81,8.72,6.68,9.15,7.15,8.09,Higher studies,Australia,2027
