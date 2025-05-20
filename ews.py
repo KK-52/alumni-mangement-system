@@ -3,6 +3,9 @@ import pandas as pd
 import datetime
 import os
 import time
+import resume_analyzer
+import requests
+
 st.write("🔍 Debug Info:", st.session_state)  # Debugging step
 
 def inject_custom_css():
@@ -155,6 +158,10 @@ if not os.path.exists(ALUMNI_POINTS_FILE):
 points_db = pd.read_csv(ALUMNI_POINTS_FILE)
 
 
+# Backend API URL
+BACKEND_URL = "http://127.0.0.1:8000"
+
+
 # Load vacancies database
 if not os.path.exists(VACANCY_FILE):
     pd.DataFrame(columns=["COMPANY NAME", "QUALIFICATION", "SKILLSET", "ROLE", "NUMBER OF VACANCIES"]).to_csv(VACANCY_FILE, index=False)
@@ -230,7 +237,7 @@ def authenticate_user(email, user_type):
 
 # Sidebar for login/signup
 st.sidebar.title("")
-st.title("Alumni Management System")
+st.title("AI Powered Smart Alumni & Career Management System")
 st.title("Powered by LIGHTBUZZ ")
 user_type = st.sidebar.radio("Login as:", ("Alumni", "Admin","Student"))
 email = st.sidebar.text_input("Email ID")
@@ -261,7 +268,7 @@ if st.sidebar.button("Login"):
 if st.session_state.get("logged_in"):
     if st.session_state["role"] == "Alumni":
         st.title("🎓 Alumni Dashboard")
-        menu = ["College Details", "Update Profile", "Chat with College","Chat with Students", "Search Friends","Student Analysis", "View Events", "Hire Students","Received Applications","Alumni Contributions","Leaderboard"]
+        menu = ["College Details", "Update Profile", "Chat with College","Chat with Students", "Search Friends","Student Analysis", "View Events", "Hire Students","Received Applications","Resume Analysis","Alumni Contributions","Leaderboard"]
         choice = st.selectbox("Navigate", menu)
         # Fetch alumni details
         user_data = alumni_db[alumni_db["EMAIL ID"] == email].iloc[0]
@@ -405,7 +412,64 @@ if st.session_state.get("logged_in"):
                     st.success("✅ Points claim sent for admin approval!")
 
 
+        elif choice == "Resume Analysis":
+            st.subheader("📄 AI-Powered Resume Analysis")
 
+    # **1️⃣ Upload Resumes**
+            st.header("📤 Upload Resumes")
+            uploaded_files = st.file_uploader("Upload multiple resumes (PDFs)", type=["pdf"], accept_multiple_files=True)
+
+            if st.button("Upload Resumes"):
+                if uploaded_files:
+                    files = [("files", (file.name, file.getvalue(), "application/pdf")) for file in uploaded_files]
+                    response = requests.post(f"{BACKEND_URL}/upload_resumes/", files=files)
+                    st.success(response.json().get("message", "Error uploading resumes"))
+                else:
+                    st.warning("Please upload at least one resume.")
+
+            # **2️⃣ Add Job Requirement**
+            st.header("📝 Add Job Requirement")
+            req_name = st.text_input("Requirement Name")
+            req_description = st.text_area("Describe the job requirement")
+
+            if st.button("Add Requirement"):
+                if req_name and req_description:
+                    data = {"requirement_name": req_name, "description": req_description}
+                    response = requests.post(f"{BACKEND_URL}/add_requirement/", data=data)
+                    st.success(response.json().get("message", "Error adding requirement"))
+                else:
+                    st.warning("Please provide a requirement name and description.")
+
+            # **3️⃣ Recommend Candidates**
+            st.header("🔍 Recommend Candidates")
+            req_match = st.text_input("Enter the Requirement Name to Match Resumes")
+
+            if st.button("Find Matches"):
+                if req_match:
+                    data = {"requirement_name": req_match}
+                    response = requests.post(f"{BACKEND_URL}/recommend/", data=data)
+                    result = response.json()
+
+                    if "error" in result:
+                        st.error(result["error"])
+                    else:
+                        st.subheader("🏆 Top Recommended Candidates")
+                        for candidate in result["top_candidates"]:
+                            st.write(f"**Rank {candidate['rank']}: {candidate['resume']}**")
+                            st.write(f"📊 Similarity Score: {candidate['similarity_score']:.2f}")
+                            st.write(f"💡 {candidate['message']}")
+
+                            # **Display Summary**
+                            summary = candidate["summary"]
+                            st.write("📌 **Top Skills:**", ", ".join(summary["top_skills"]))
+                            
+                            st.write("🔹 **Experience Highlights:**")
+                            for exp in summary["experience_highlights"]:
+                                st.write(f"- {exp}")
+
+                            st.write("---")
+                else:
+                    st.warning("Please enter a requirement name.")
 
         elif choice == "Received Applications":
             st.subheader("📥 Resumes Received for Hiring")
@@ -796,7 +860,7 @@ if st.session_state.get("logged_in"):
 
     elif st.session_state["role"] == "Student":
         st.title("🎓 Student Dashboard")
-        menu = ["Career Guidance","Chat with Admin/Alumni", "Alumni Profiles", "Student Details"]
+        menu = ["Career Guidance","Chat with Admin/Alumni", "Search Alumni Analysis", "Student Details"]
         choice = st.selectbox("Navigate", menu)
 
         if choice == "Career Guidance":
@@ -857,9 +921,16 @@ if st.session_state.get("logged_in"):
                 new_message.to_csv(STUDENT_MESSAGE_FILE, mode="a", header=False, index=False)
                 st.success("✅ Message Sent!")
                 
-        elif choice == "Alumni Profiles":
-            st.write("### 🔍 Browse Alumni Profiles")
-            st.dataframe(alumni_db[["NAME", "DEPARTMENT", "EMAIL ID", "COMPANY NAME", "JOB TITLE"]])
+        elif choice == "Search Alumni Analysis":
+            st.subheader("📊 Search Alumni Analysis - Power BI")
+
+            # Power BI Embedded Report Link for Admin
+            SEARCH_ALUMNI_POWER_BI_URL = "https://app.powerbi.com/reportEmbed?reportId=69f327b5-00f2-44b0-946e-e9052c45607b&autoAuth=true&ctid=085c606c-851a-4f29-9538-639c1a6f40ee"
+
+            # Embed Power BI dashboard using iframe
+            st.components.v1.iframe(SEARCH_ALUMNI_POWER_BI_URL, width=850, height=450)
+
+            st.info("🔹 This dashboard provides insights into Alumni career progress, achievments, and trends for domain tracking.")
 
         elif choice == "Student Details":
             st.write("### 📋 Your Details")
